@@ -2,17 +2,15 @@
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
-
 body, main, picture, article, h1, p {
     margin: 0px;
     padding: 0px;
 }
-
 body {
     font-family: 'Outfit', sans-serif;
     display: grid;
     place-content: center;
-    background: hsl(212, 45%, 89%);
+    background: hsl(212, 45%, 89%); 
 }
 .principal{
     background: hsl(0, 0%, 100%);
@@ -36,5 +34,8 @@ p{
     text-align: center;
     padding: 0px 0px 20px 0px;
 }
-
-
+@media (min-width: 380px){
+    .principal{
+        width: 250px;
+    }
+}
